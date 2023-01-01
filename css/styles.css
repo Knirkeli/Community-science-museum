@@ -166,62 +166,6 @@ nav a:hover {
     }
 }
 
-@media (max-width:810px) {
-    .shared_picture {
-        width: 300px;
-        height: 160px;
-        transition:ease-in-out 300ms;
-        
-    }   
-}
-
-@media (max-width:700px) {
-    
-    main .homepage {
-        display: flex;
-        flex-direction: row;
-        min-height: 1000px;
-        justify-items: space-around;
-        align-content: center;
-    
-    }
-
-
-    .heading_container {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        text-transform: uppercase;
-         
-        
-    }
-
-    .heading_container img {
-        display: flex;
-    }
-
-    .user_photos {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1.5rem;
-        }
-
-    .shared_picture {
-        width: 450px;
-        height: 300px;
-        transition:ease-in-out 300ms;           
-    }
-}
-
-@media (max-width:550px) {
-    .shared_picture {
-        width: 300px;
-        height: 210px;
-        transition:ease-in-out 300ms;           
-    }
-}
-
-
 
 /*landing page*/
 
@@ -279,6 +223,64 @@ gap: 1.5rem;
     
     
 }
+
+@media (max-width:810px) {
+    .shared_picture {
+        width: 300px;
+        height: 160px;
+        transition:ease-in-out 300ms;
+        
+    }   
+}
+
+@media (max-width:700px) {
+    
+    main .homepage {
+        display: flex;
+        flex-direction: row;
+        min-height: 1000px;
+        justify-items: space-around;
+        align-content: center;
+    
+    }
+
+
+    .heading_container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        text-transform: uppercase;
+         
+        
+    }
+
+    .heading_container img {
+        display: flex;
+    }
+
+    .user_photos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+        }
+
+    .shared_picture {
+        width: 450px;
+        height: 300px;
+        transition:ease-in-out 300ms;           
+    }
+}
+
+@media (max-width:550px) {
+    .shared_picture {
+        width: 300px;
+        height: 210px;
+        transition:ease-in-out 300ms;           
+    }
+}
+
+
+
 
 .card {
     display: grid;
@@ -463,6 +465,8 @@ select {
     margin-right: 10px;
 }
 
+
+
 /*Footer*/
 
     footer {
@@ -479,6 +483,8 @@ select {
     .info_container{
         display: flex;
         justify-content:space-around;
+
+    
     }
 
     .booking_container {
@@ -487,7 +493,8 @@ select {
         align-items: center;
         box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);
         max-width: 80vw;
-        margin: auto auto;  
+        margin: auto auto;
+        
     }
 
 
@@ -495,6 +502,7 @@ select {
     .book_link_button {
         align-self: center;
         margin: 20px;        
+
     }
 
     .location {
